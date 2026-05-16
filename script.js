@@ -20,7 +20,7 @@ authButton.addEventListener('click', function() {
     }
     data.push(users)
     if (UserLogin.value !== '' && UserPassword.value !== '') {
-        window.location.href = '/main/main.html'
+        window.location.href = './main/main.html'
     }if (UserLogin.value === '' && UserPassword.value === '') {
         alert('Enter your login and password!')
     }if (UserLogin.value === '' && UserPassword.value !== '') {
